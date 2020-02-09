@@ -1,4 +1,4 @@
-const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:1337' : 'https://travel-log-backend-8hwcem4h1.now.sh/';
+const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:1337' : 'https://travel-log-backend-27xx9gf3y.now.sh/';
 
 export async function listLogEntries() {
   const response = await fetch(`${API_URL}/api/logs`);
